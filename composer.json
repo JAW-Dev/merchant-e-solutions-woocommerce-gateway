@@ -1,0 +1,26 @@
+{
+	"name": "Jason Witt/mg-merchant-e-solutions",
+	"description": "A WordPress plugin boilerplate",
+	"version": "1.0.0",
+	"license": "GFDL-1.2-or-later",
+	"authors": [
+		{
+			"name": "Jason Witt"
+		}
+	],
+	"config": {
+		"optimize-autoloader": true,
+		"classmap-authoritative": true
+	},
+	"autoload": {
+		"psr-4": {
+			"Merchant_E_Solutions\\": "includes/Classes"
+		},
+		"classmap": [
+			"includes/Classes"
+		]
+	},
+	"require": {
+		"mcred/detect-credit-card-type": "^0.1.0"
+	}
+}
